@@ -1,0 +1,24 @@
+{
+  "landingPage": "/wp-admin/admin.php?page=PagePulse-admin",
+  "preferredVersions": {
+    "php": "8.0",
+    "wp": "latest"
+  },
+  "steps": [
+    {
+      "step": "login",
+      "username": "admin",
+      "password": "password"
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "wordpress.org/plugins",
+        "slug": "pagepulse"
+      },
+      "options": {
+        "activate": true
+      }
+    }
+  ]
+}
